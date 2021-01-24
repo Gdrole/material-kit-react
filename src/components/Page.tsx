@@ -16,6 +16,9 @@ const Page: FC<Props> = (props) => {
 		<div
 			ref={ref}
 			{...props}
+			style={{
+				paddingTop: 20
+			}}
 		>
 			<Helmet>
 				<title>{title}</title>
